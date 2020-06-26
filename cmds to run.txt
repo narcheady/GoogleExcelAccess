@@ -1,3 +1,5 @@
+Commands to run : 
+
 conda create --name gexcelapp python=3.6
 conda activate gexcelapp
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
