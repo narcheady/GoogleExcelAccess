@@ -15,11 +15,12 @@ SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 # The ID and range of a sample spreadsheet.
 SAMPLE_SPREADSHEET_ID = re.split("/spreadsheets/d/([a-zA-Z0-9-_]+)", str(sys.argv[1]))[1]
 #1i8c9T8KXDdjSWjVBf0P3pDo9DNf_kg8Z9oLEOnwRHOg
+print(str(sys.argv[2]))
 SAMPLE_RANGE_NAME = str(sys.argv[2])
 
 def main():
     """Shows basic usage of the Sheets API.
-    Prints values from a sample spreadsheet.
+    Prints values from a sample spreadsheet.cls
     """
     creds = None
     # The file token.pickle stores the user's access and refresh tokens, and is
